@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h4 {
+	overflow: hidden;
+	text-align: center;
+	color: gray;
+	&:before {
+		background-color: gray;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+		right: 0.5em;
+		margin-left: -50%;
+	}
+	&:after {
+		background-color: gray;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+		left: 0.5em;
+		margin-right: -50%;
+	}
+}
+h5 {
+	color: gray;
+}
+h1 {
+	color: gray;
+	font-weight: normal;
+}
+h6 {
+	color: gray;
+}
+.SignUpBtn {
+	background-color: #4c8bf5;
+	width: 200px;
+	color: white;
+	width: 80%;
+}
+.inputBox {
+	width: 80%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid gray;
+	outline: none;
+}
+.signUpForm {
+	width: 800px;
+	height: 700px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: white;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+.kep-login-facebook {
+	width: 250px;
+	overflow: hidden;
+	height: 70px;
+	padding: 0px;
+	margin-left: 10px;
+}
